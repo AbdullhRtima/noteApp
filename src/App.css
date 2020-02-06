@@ -1,0 +1,7 @@
+html,
+body,
+.app {
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 1em;
+}

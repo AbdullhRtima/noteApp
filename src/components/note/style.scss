@@ -1,0 +1,47 @@
+.nav{
+    padding: 2rem 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 8rem;
+    translate: all 3s;
+    transform: scale(1);
+    &:hover{
+        transform: scale(1.3)
+    }
+}
+.btn-nav{
+    height: 3rem;
+    align-self :flex-end;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+}
+.quote{
+    text-transform: uppercase;
+}
+.dr-img{
+    height: 4rem;
+    padding: 0 1rem;
+    border-radius: 3rem;
+    align-items: center;
+    transform: scale(1);
+    &:hover{
+        transform: scale(1.3)
+    }
+}
+.btn-note{
+    position: fixed;
+    top: 40rem;
+    left: 88rem;
+    z-index: 2000;
+    cursor: pointer;
+    margin-left: 2rem;
+}
+.control-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
